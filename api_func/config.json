@@ -1,0 +1,15 @@
+{
+    "feature_name" : "chat",
+    "func_name" : "getOneChat",
+    "api_url" : "chats",
+    "token" : true,
+    "emptyBody" : false,
+    "model_name" : "OneConversationModel",
+    "body": [{
+        "key": "recipients",
+        "value": "dd"
+    },{
+        "key": "recipients1",
+        "value": "dd2"
+    }]
+}
