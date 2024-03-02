@@ -53,9 +53,24 @@ vars:
   emptyBody:
     type: boolean
     default: false
+    description: Body is empty
+    prompt: Empty Body?
+  bodyIsList:
+    type: boolean
+    default: false
     description: Read body as a list
     prompt: Read body as a list?
+  bodyIsListOfMaps:
+    type: boolean
+    default: false
+    description: Read body as a list Of Maps
+    prompt: Read body as a list of maps?   
+  hasParameters:
+    type: boolean
+    default: true
+    description: Has parameters
+    prompt: Has Parameters?   
   parameters: 
-    type: list
+    type: string
     description: Parameters
     prompt: What is your parameters, ex [{""}]?

@@ -4,7 +4,19 @@
     "api_url" : "chats",
     "token" : true,
     "emptyBody" : false,
+    "bodyIsList": true,
+    "bodyIsListOfMaps": true,
+    "hasParameters": true,
     "model_name" : "OneConversationModel",
+    "parameters" : [{
+        "key": "String",
+        "value": "name",
+        "isRequired" : true
+    }, {
+        "key": "String",
+        "value": "age",
+        "isRequired" : false
+    }],
     "body": [{
         "key": "recipients",
         "value": "dd"
